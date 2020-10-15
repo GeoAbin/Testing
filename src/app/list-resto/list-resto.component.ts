@@ -13,9 +13,10 @@ export class ListRestoComponent implements OnInit {
 
   collection={}
   ngOnInit(): void {
-this.resto.getList().subscribe((result)=>{
-  console.warn(result)
+this.resto.getList().subscribe(result=>
+  {
   this.collection=result
+  console.warn(result)
 })
 }
 

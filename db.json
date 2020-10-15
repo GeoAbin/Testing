@@ -1,19 +1,34 @@
 {
-  "posts": [
+  "Resto": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "KFC",
+      "add": "delhi",
+      "email": "fdsfs@dgdgf.com"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "KFC",
+      "add": "Kokata",
+      "email": "fdssdfgfs@dgdgf.com"
+    },
+    {
+      "id": 3,
+      "name": "KFC",
+      "add": "Bombay",
+      "email": "fdsffgfghs@dgdgf.com"
+    },
+    {
+      "id": 4,
+      "name": "KFC",
+      "add": "Madras",
+      "email": "fdsdfgssfs@dgdgf.com"
+    },
+    {
+      "id": 5,
+      "name": "Mcd",
+      "add": "Kolkatta",
+      "email": "fdsfsdfgdss@dgdgf.com"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
