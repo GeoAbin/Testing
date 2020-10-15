@@ -21,4 +21,8 @@ url="http://localhost:3000/Resto"
     return this.http.post(this.url,data)
   }
 
+  deleteResto(id)
+  {
+    return this.http.delete(`${this.url}/${id}`)
+  }
 }
