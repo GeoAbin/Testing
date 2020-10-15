@@ -16,4 +16,9 @@ url="http://localhost:3000/Resto"
     return this.http.get(this.url)
   }
 
+  saveResto(data)
+  {
+    return this.http.post(this.url,data)
+  }
+
 }
