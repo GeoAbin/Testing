@@ -17,6 +17,7 @@ this.resto.getList().subscribe((result)=>{
   console.warn(result)
   this.collection=result
 })
+
 }
 
 }
