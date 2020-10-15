@@ -14,6 +14,7 @@ export class ListRestoComponent implements OnInit {
   collection={}
   ngOnInit(): void {
 this.resto.getList().subscribe(result=>this.collection=result)
+this.collection = Array.of(this.collection);
 }
 
 }
