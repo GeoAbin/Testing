@@ -3,19 +3,19 @@
     {
       "id": 1,
       "name": "KFC",
-      "add": "delhi",
+      "add": "new Delhi",
       "email": "fdsfs@dgdgf.com"
     },
     {
       "id": 2,
       "name": "KFC",
-      "add": "Kokata",
+      "add": "Calcatta",
       "email": "fdssdfgfs@dgdgf.com"
     },
     {
       "id": 3,
       "name": "KFC",
-      "add": "Bombay",
+      "add": "Mumbai",
       "email": "fdsffgfghs@dgdgf.com"
     },
     {
@@ -29,6 +29,20 @@
       "name": "Mcd",
       "add": "Kolkatta",
       "email": "fdsfsdfgdss@dgdgf.com"
+    }
+  ],
+  "users": [
+    {
+      "user": "sfsdgf",
+      "pass": "dfdsgdsf",
+      "email": "dfgsdfg",
+      "id": 1
+    },
+    {
+      "user": "ffhgf",
+      "pass": "sadfasf",
+      "email": "sdfsfa",
+      "id": 2
     }
   ]
 }
