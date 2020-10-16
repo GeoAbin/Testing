@@ -20,8 +20,12 @@ export class AppComponent {
   }
 
   b:boolean=false
-  disp()
+  disp1()
   {
     this.b=true
+  }
+  disp2()
+  {
+    this.b=false
   }
 }

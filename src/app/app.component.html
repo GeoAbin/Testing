@@ -2,9 +2,8 @@
   <app-header></app-header>
 </div>
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <a class="navbar-brand" (click)="disp()" href="#" >Resto App</a>
+  <a class="navbar-brand"  href="#" (click)="disp1()">Resto App</a>
   <button
-
 
     class="navbar-toggler"
     type="button"
@@ -21,16 +20,16 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" routerLink="add">Add Resto</a>
+      <a class="nav-item nav-link" (click)="disp2()" routerLink="add">Add Resto</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="nav-item nav-link" routerLink="list">Operations</a>
+      <a class="nav-item nav-link" (click)="disp2()" routerLink="list">Operations</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="nav-item nav-link" routerLink="login">Login</a>
+      <a class="nav-item nav-link" (click)="disp2()" routerLink="login">Login</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="nav-item nav-link" routerLink="register">Register</a>
+      <a class="nav-item nav-link" (click)="disp2()" routerLink="register">Register</a>
     </div>
   </div>
 </nav>
