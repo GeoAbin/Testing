@@ -9,7 +9,9 @@ import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import {HttpClientModule} from '@angular/common/http'
-import {ReactiveFormsModule} from '@angular/forms'
+import {ReactiveFormsModule} from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {ReactiveFormsModule} from '@angular/forms'
     UpdateRestoComponent,
     ListRestoComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

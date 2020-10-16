@@ -1,7 +1,11 @@
-
+<div>
+  <app-header></app-header>
+</div>
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <a class="navbar-brand" href="#">Resto App</a>
+  <a class="navbar-brand" href="#" >Resto App</a>
   <button
+    #b
+    (click)="disp()"
     class="navbar-toggler"
     type="button"
     data-toggle="collapse"
@@ -15,8 +19,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link" routerLink="add">Add Resto</a>
-      <a class="nav-item nav-link" routerLink="">Update Resto</a>
-      <a class="nav-item nav-link" routerLink="list">List Resto</a>
+      <a class="nav-item nav-link" routerLink="list">Operations</a>
       <a class="nav-item nav-link" routerLink="login">Login</a>
       <a class="nav-item nav-link" routerLink="register">Register</a>
     </div>
@@ -25,6 +28,29 @@
 
 <div class="container">
 <router-outlet></router-outlet>
+</div>
 
-<footer>Copyright2020</footer>
+<div >
+<table class="table" *ngIf="b">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">name</th>
+      <th scope="col">add</th>
+      <th scope="col">email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of collection">
+      <th>{{item.id}}</th>
+      <th>{{item.name}}</th>
+      <th>{{item.add}}</th>
+      <th>{{item.email}}</th>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div>
+  <app-footer></app-footer>
 </div>
