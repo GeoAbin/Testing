@@ -19,5 +19,9 @@ export class AppComponent {
   this.collection = Array.of(this.collection);
   }
 
-
+  b:boolean=false
+  disp()
+  {
+    this.b=true
+  }
 }
