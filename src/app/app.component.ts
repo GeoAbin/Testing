@@ -12,14 +12,12 @@ export class AppComponent {
 
   constructor(private resto:RestoService) { }
   collection:any=[]
-  b:boolean=false
+
   ngOnInit()
   {
   this.resto.getList().subscribe(result=>this.collection=result)
   this.collection = Array.of(this.collection);
   }
-  disp()
-  {
-    this.b=true
-  }
+
+
 }
