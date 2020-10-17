@@ -9,7 +9,9 @@ import {RestoService} from '../resto.service'
 })
 export class ListRestoComponent implements OnInit {
 
-  constructor(private resto:RestoService) { }
+  constructor(private resto:RestoService) {
+    console.warn("ListResto Component Loaded")
+   }
 
   collection:any=[]
   ngOnInit(): void {

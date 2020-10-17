@@ -19,7 +19,9 @@ export class RegisterComponent implements OnInit {
   })
 
 
-  constructor(private resto:RestoService) { }
+  constructor(private resto:RestoService) {
+    console.warn("RegisterResto Component Loaded")
+   }
 
   ngOnInit(): void {
   }

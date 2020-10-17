@@ -19,7 +19,9 @@ export class AddRestoComponent implements OnInit {
     email:new FormControl('')
   })
 
-  constructor(private resto:RestoService) { }
+  constructor(private resto:RestoService) {
+    console.warn("AddResto Component Loaded")
+   }
 
   ngOnInit(): void {
   }

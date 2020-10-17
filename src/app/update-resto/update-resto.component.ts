@@ -20,7 +20,9 @@ export class UpdateRestoComponent implements OnInit {
     email: new FormControl('')
   })
 
-  constructor(private router: ActivatedRoute, private resto: RestoService) { }
+  constructor(private router: ActivatedRoute, private resto: RestoService) {
+    console.warn("UpdateResto Component Loaded")
+   }
 
   ngOnInit(): void {
     console.warn(this.router.snapshot.params.id)
